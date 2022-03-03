@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    font-size: 16px;
+}
+
+
+
+aside { 
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-media { 
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+}
+
+div > a > i {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+
+#facebook { color: #46536C }
+#google { color: #DF4D3A }
+#linkedin { color: #46536C }
+
+
+aside > article > h1 { 
+    font-size: 4rem;
+    color: rgb(27, 26, 26);
+}
+
+aside > article > h2 { 
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(85, 85, 85);
+}
+
+aside > article > form { 
+    display: flex;
+    flex-direction: column;
+}
+
+aside > article > form > input { 
+    margin: 15px;
+    padding: 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+
+aside > article > form > input::placeholder { 
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-button { 
+    width: 10vw;
+    margin: auto;
+    background-color: rgb(12, 182, 145);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.input-button:hover { 
+    background-color: rgb(10, 138, 110);
+}
+
+section { 
+    background-image: linear-gradient(to right, #39B693, #3BA9AE);
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    grid-gap: 40px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-top: 75px;
+}
+
+section > h3 {
+    font-size: 5rem;
+}
+
+section > h4 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    width: 25vw;
+}
+
+section > a > button { 
+    width: 10vw;
+    margin: auto;
+    background-color: white;
+    color: rgb(25, 26, 25);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+section > a > button:hover { 
+    background-color: rgb(236, 236, 236);
+}
