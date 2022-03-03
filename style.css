@@ -118,7 +118,7 @@ section > a > button {
     width: 10vw;
     margin: auto;
     background-color: white;
-    color: rgb(25, 26, 25);
+    color: rgb(42, 40, 40);
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
@@ -126,7 +126,7 @@ section > a > button {
     border: none;
     padding: 15px;
     margin-top: 15px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 1px 8px rgba(15, 15, 15, 0.26);
     cursor: pointer;
     transition: 0.2s;
 }
