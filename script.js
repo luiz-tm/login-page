@@ -1,5 +1,8 @@
 function scrollPage ()
 {
-    window.scroll(0, 2000);
+    window.scroll({
+        top: 1000,
+        behavior: 'smooth'  // 👈 
+      });
     console.log('Foi')
 }
