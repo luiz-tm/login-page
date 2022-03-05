@@ -20,7 +20,7 @@ Foi adicionado um sistema de responsividade básico na página diminuindo o tama
 Foram utilizadas unidades responsivas nos paddings e font-size: rem, acompanhando o root do CSS.
 
 ### Tecnologia Grid
-A fim de evitar o display flex com width pré-definido,foi utilizada uma tecnologia mais recente do CSS, display grid.
+A fim de evitar o display flex com width pré-definido, foi utilizada uma tecnologia mais recente do CSS, display grid.
 
 ### Agradecimentos e créditos
 - FontAwesome: site de ícones para HTML.
