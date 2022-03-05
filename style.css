@@ -7,14 +7,17 @@
     outline: 0;
 }
 
+html {
+    /* A cada 1rem será 10px */
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: 60vw 40vw;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
-
-
 
 aside { 
     text-align: center;
@@ -27,7 +30,7 @@ aside {
 .social-media { 
     display: flex;
     flex-direction: column;
-    font-size: 4rem;
+    font-size: 6.4rem;
 }
 
 div > a > i {
@@ -42,12 +45,12 @@ div > a > i {
 
 
 aside > article > h1 { 
-    font-size: 4rem;
+    font-size: 6.4rem;
     color: rgb(27, 26, 26);
 }
 
 aside > article > h2 { 
-    font-size: 1.6rem;
+    font-size: 2.56rem;
     font-weight: 300;
     color: rgb(85, 85, 85);
 }
@@ -59,7 +62,7 @@ aside > article > form {
 
 aside > article > form > input { 
     margin: 15px;
-    padding: 25px;
+    padding: 2.5rem;
     border: none;
     outline: none;
     background-color: rgb(241, 241, 241);
@@ -68,20 +71,20 @@ aside > article > form > input {
 
 aside > article > form > input::placeholder { 
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.76rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .input-button { 
-    width: 10vw;
+    width: 180px;
     margin: auto;
     background-color: rgb(12, 182, 145);
     color: white;
     font-family: 'Poppins', sans-serif;
     border-radius: 30px;
     font-weight: 600;
-    font-size: 1.2rem;
-    padding: 15px;
+    font-size: 1.92rem;
+    padding: 1.5rem;
     margin-top: 15px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.171);
     cursor: pointer;
@@ -92,39 +95,61 @@ aside > article > form > input::placeholder {
     background-color: rgb(10, 138, 110);
 }
 
+.options-login { 
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.options-login > a, .options-login > p {
+    color: black;
+    text-decoration: none;
+    font-size: 2.0rem;
+    cursor: pointer;
+}
+
+.options-login > a:hover, .options-login > p:hover {
+    text-decoration: underline;
+}
+
+.register {
+    display: none;
+}
+
 section { 
     background-image: linear-gradient(to right, #39B693, #3BA9AE);
     text-align: center;
     height: 100vh;
     display: grid;
     grid-gap: 40px;
-    justify-content: center;
     align-content: center;
     color: white;
-    padding-top: 75px;
+    padding-top: 7.5rem;
 }
 
 section > h3 {
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
 section > h4 {
-    font-size: 1.7rem;
+    font-size: 2.72rem;
     font-weight: 300;
-    width: 25vw;
+    width: 100%;
+    text-justify: justify;
 }
 
 section > a > button { 
-    width: 10vw;
+    width: 180px;
     margin: auto;
     background-color: white;
     color: rgb(42, 40, 40);
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.92rem;
     border-radius: 30px;
     border: none;
-    padding: 15px;
+    padding: 1.5rem;
     margin-top: 15px;
     box-shadow: 1px 1px 8px rgba(15, 15, 15, 0.26);
     cursor: pointer;
@@ -133,4 +158,54 @@ section > a > button {
 
 section > a > button:hover { 
     background-color: rgb(236, 236, 236);
+}
+
+@media (max-width: 1650px)
+{
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 1400px)
+{
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1270px)
+{
+    html {
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 1149px)
+{
+    html {
+        font-size: 43%;
+    }
+
+    body { 
+        grid-template-columns: 50vw 50vw;
+    }
+}
+
+@media (max-width: 955px)
+{
+    html {
+        font-size: 43%;
+    }
+}
+
+@media (max-width: 900px)
+{
+    body {
+        display: block;
+    }
+
+    .register {
+        display: flex;
+    }
 }
