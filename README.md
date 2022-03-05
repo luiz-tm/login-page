@@ -11,7 +11,7 @@ Utilizei HTML5, CSS3 e JavaScript para criar a página.
 ### Responsividade
 Foi adicionado um sistema de responsividade básico na página diminuindo o tamanho da fonte da página para adaptação.
 
-A partir de 900px:
+* A partir de 900px:
 - O display da página sai de grid para block, colocando o conteúdo principal e adiciona uma rolagem vertical para a continuação do conteúdo.
 
 - Surge uma nova opção na login-options para caso não seja registrado. Ao clicar na opção, a página scrolla automaticamente ao final para mostrar o conteúdo restante.
