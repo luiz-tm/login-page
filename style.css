@@ -193,7 +193,7 @@ section > a > button:hover {
     }
 }
 
-@media (max-width: 955px)
+@media (max-width: 960px)
 {
     html {
         font-size: 43%;
