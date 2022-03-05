@@ -23,7 +23,10 @@ Foram utilizadas unidades responsivas nos paddings e font-size: rem, acompanhand
 A fim de evitar o display flex com width pré-definido, foi utilizada uma tecnologia mais recente do CSS, display grid.
 
 ### Agradecimentos e créditos
-- FontAwesome: site de ícones para HTML.
-- Rocketseat: conhecimentos sobre responsividade e display grid.
-- Justinmind: template artístico da página.
-- CursoEmVideo: conhecimentos sobre HTML5 e CSS3.
+- FontAwesome
+- Rocketseat
+- Justinmind
+- CursoEmVideo
+- Aligattor.io
+- W3C
+- StackOverFlow
