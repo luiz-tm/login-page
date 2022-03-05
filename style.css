@@ -95,21 +95,21 @@ aside > article > form > input::placeholder {
     background-color: rgb(10, 138, 110);
 }
 
-.options-login { 
+.login-options { 
     margin: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.options-login > a, .options-login > p {
+.login-options > a, .login-options > p {
     color: black;
     text-decoration: none;
     font-size: 2.0rem;
     cursor: pointer;
 }
 
-.options-login > a:hover, .options-login > p:hover {
+.login-options > a:hover, .login-options > p:hover {
     text-decoration: underline;
 }
 
