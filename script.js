@@ -4,5 +4,4 @@ function scrollPage ()
         top: 1000,
         behavior: 'smooth'  // 👈 
       });
-    console.log('Foi')
 }
